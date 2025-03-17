@@ -1,13 +1,16 @@
 # Build-Serverless-Chatbot-AmazonBedrock
 Build a Serverless Chatbot using Amazon's Bedrock
 
+--------------------------------------------------
 ### Introduction:
 This project demonstrates building a serverless chatbot using Amazon's Bedrock service. We have used Bedrock's feature such as Retrieval Augmented Generation to retrieve the latest information about the company from the vector DB and augment with user prompt to send FM. This provides the model with the context it needs to produce accurate and useful output for the specific use case. We have used Bedrock Agents to automate the tasks such as create claim which agents will pertinent lambda to perform the business logic for various usecases. For Security and Responsible AI policies, we have used Guardrails to block the unwanted response from the Model.
 
+--------------------------------------------------
 ### Architecture:
 
 ![KB](https://github.com/user-attachments/assets/4e8e94e6-95fc-41cb-b0d0-f23a926488fe)
 
+--------------------------------------------------
 
 ![AGENTS](https://github.com/user-attachments/assets/2564f410-8d88-43e5-8b21-1b2ae16a792d)
 
@@ -21,12 +24,14 @@ This project demonstrates building a serverless chatbot using Amazon's Bedrock s
 6. **Lambda:** Serverless Compute service which process the business logic and its high available, scalable.
 7. **S3** : It is the Object Storage Service which helps to store the Company's PDF and Documents. It is high available and scalable.
 
+--------------------------------------------------
 ### Understanding the Amazon's Bedrock Features:
 
 1. Bedrock Knowledge bases : It is Managed RAG helps to store the Company's latest information in Vector DB
 2. Bedrock Agents : Used to automate multistep tasks by seamlessly connecting with company systems, APIs, and data sources
 3. Bedrock Guardrails :  Used to implement safeguards customized to their application requirements and responsible AI  policies.
 
+--------------------------------------------------
 ### Key Learning Outcomes: 
 1. Provision the Resources such as VPC, RDS, S3 using CloudFormation Template
 2. Created the Bedrock's Knowledge base by configuring the following steps
@@ -42,6 +47,6 @@ This project demonstrates building a serverless chatbot using Amazon's Bedrock s
    • Added Denied Topic
 
 
-
+--------------------------------------------------
 ### Conclusion
 This Project Highlights the Successful Implemenation of Serverless Chatbot GenAI Application  using various Bedrock's Features such as KB, Agents and Guardrails. By leveraging AWS's robust services and integrating best practices, the architecture delivers high scalability, resilience, and security while remaining cost-efficient.This hands-on experience reinforces the practical knowledge of designing, deploying, and managing GenAI applications, making it a significant step forward in mastering modern application hosting GenAI solutions.
