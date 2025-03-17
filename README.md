@@ -6,6 +6,11 @@ This project demonstrates building a serverless chatbot using Amazon's Bedrock s
 
 ### Architecture:
 
+![KB](https://github.com/user-attachments/assets/4e8e94e6-95fc-41cb-b0d0-f23a926488fe)
+
+
+![AGENTS](https://github.com/user-attachments/assets/2564f410-8d88-43e5-8b21-1b2ae16a792d)
+
 
 ### projects Highlights:
 1. **CloudFormation Template :** Used CFT to provision the Resources such as VPC, RDS, S3
