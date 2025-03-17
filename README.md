@@ -28,7 +28,7 @@ This project demonstrates building a serverless chatbot using Amazon's Bedrock s
 ### Understanding the Amazon's Bedrock Features:
 
 1. Bedrock Knowledge bases : It is Managed RAG helps to store the Company's latest information in Vector DB
-2. Bedrock Agents : Used to automate multistep tasks by seamlessly connecting with company systems, APIs, and data sources
+2. Bedrock Agents : Build agents  that use foundation models, make API calls, and (optionally) query knowledge bases in order to reason through and carry out tasks for your customers.
 3. Bedrock Guardrails :  Used to implement safeguards customized to their application requirements and responsible AI  policies.
 
 --------------------------------------------------
