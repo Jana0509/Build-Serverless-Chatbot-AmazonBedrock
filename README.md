@@ -19,7 +19,7 @@ This project demonstrates building a serverless chatbot using Amazon's Bedrock s
 1. **CloudFormation Template :** Used CFT to provision the Resources such as VPC, RDS, S3
 2. **Amazon Bedrock & Claude 3 Haiku:** Integrated Anthropic's Claude 3 Haiku, a cutting-edge AI model optimized for fast and efficient natural language processing, to generate intelligent response based on User Input. Amazon Bedrock provides a fully managed environment to deploy and scale foundation models with ease.
 3. **Amazon Bedrock Titan Embedding Model:** It helps to convert the object to mathetical vectors and helps to store the vector to Vector DB(Opensearch Serverless)
-4. **Knowledge Bases:** It is the External Datasource which will be augmented with the User prompt to get the accurate response from the Foundation Model (Claude 3 Haiku)
+4. **Knowledge Bases:** It is the External Datasource which will be augmented with the User prompt to get the accurate response from the Foundation Model (Claude 3 Haiku). It is used to enhance the model's capability
 5. **Bedrock Agents:** : Used to automate multistep tasks by seamlessly connecting with company systems, APIs, and data sources
 6. **Lambda:** Serverless Compute service which process the business logic and its high available, scalable.
 7. **S3** : It is the Object Storage Service which helps to store the Company's PDF and Documents. It is high available and scalable.
