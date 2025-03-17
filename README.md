@@ -38,4 +38,5 @@ This project demonstrates building a serverless chatbot using Amazon's Bedrock s
 
 
 
-### Conclsuion
+### Conclusion
+This Project helped me to Understand and develop the GenAI Application using various Bedrock's Features such as KB, Agents and Guardrails
