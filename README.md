@@ -39,4 +39,4 @@ This project demonstrates building a serverless chatbot using Amazon's Bedrock s
 
 
 ### Conclusion
-This Project helped me to Understand and develop the GenAI Application using various Bedrock's Features such as KB, Agents and Guardrails
+This Project Highlights the Successful Implemenation of Serverless Chatbot GenAI Application  using various Bedrock's Features such as KB, Agents and Guardrails. By leveraging AWS's robust services and integrating best practices, the architecture delivers high scalability, resilience, and security while remaining cost-efficient.This hands-on experience reinforces the practical knowledge of designing, deploying, and managing GenAI applications, making it a significant step forward in mastering modern application hosting GenAI solutions.
